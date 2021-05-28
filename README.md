@@ -1,5 +1,5 @@
-# ASWX1-FW-MOD  
-**Artillery Sidewinder X1 Firmware Mod**  
+# AGENIUS-FW-MOD  
+**Artillery Genius Firmware Mod**  
 
 
 <img align="right" width="175" src="https://github.com/MarlinFirmware/Marlin/raw/2.0.x/buildroot/share/pixmaps/logo/marlin-250.png" style="max-width:100%;">
@@ -7,23 +7,19 @@
 <img align="left" width="175" src="https://github.com/pinguinpfleger/ASWX1-FW-MOD/blob/2.0.x/artillery_logo_brand.png?raw=true" style="max-width:100%;">
 
  
-The ASWX1-FW-Mod is an optimization for the Artillery Sidewinder X1 3D printer.  
-The Artillery Sidewinder X1 is delivered with Marlin 1.19 [link](http://www.artillery3d.com/DownLoad/15688.html) and deactivated EEPROM memory function `M500`.  
+The AGENIUS-FW-MOD is an optimization for the Artillery Genius 3D printer.  
+The Artillery Genius is delivered with Marlin 1.19 [link](http://www.artillery3d.com/DownLoad/15688.html) and deactivated EEPROM memory function `M500`.  
   
 This optimized firmware is based on [Marlin Firmware Version 2.0.x](https://github.com/MarlinFirmware/Marlin/tree/2.0.x)  
-and on Marlin [Artillery Sidewinder X1 config](https://github.com/MarlinFirmware/Configurations/tree/master/config/examples/Artillery/Sidewinder%20X1)  
+and on Marlin [Artillery Genius config](https://github.com/MarlinFirmware/Configurations/blob/master/config/examples/Artillery/Genius/Configuration.h)  
 
 <br>
 
 There is also an [optimized firmware for Artillery Sidewinder X1 touch display](https://github.com/pinguinpfleger/ASWX1-TFTFW-MOD) which you can install too but it is optional.  
 
-## Releases  
-**20.03.2020** [ASWX1-FW-MOD-v1.2](https://github.com/pinguinpfleger/ASWX1-FW-MOD/releases/tag/ASWX1-FW-MOD-v1.2) - [ASWX1-FW-MOD-v1.2.zip](https://github.com/pinguinpfleger/ASWX1-FW-MOD/releases/download/ASWX1-FW-MOD-v1.2/ASWX1-FW-MOD-v1.2.zip)  based on Marlin 2.0.5.1  
+## Releases
 
-**07.03.2020** [ASWX1-FW-MOD-v1.1](https://github.com/pinguinpfleger/ASWX1-FW-MOD/releases/tag/ASWX1-FW-MOD-v1.1) - [ASWX1-FW-MOD-v1.1.zip](https://github.com/pinguinpfleger/ASWX1-FW-MOD/releases/download/ASWX1-FW-MOD-v1.1/ASWX1-FW-MOD-v1.1.zip)  based on Marlin 2.0.4.4  
-*Maintained some basic changes (e.g. the possibility to store babystepping)*  
-  
-**29.02.2020** [ASWX1-FW-MOD-v1.0](https://github.com/pinguinpfleger/ASWX1-FW-MOD/releases/tag/ASWX1-FW-MOD-v1.0) - [ASWX1-FW-MOD-v1.0.zip](https://github.com/pinguinpfleger/ASWX1-FW-MOD/releases/download/ASWX1-FW-MOD-v1.0/ASWX1-FW-MOD-v1.0.zip)  based on Marlin 2.0.4.4  
+See [upstream](https://github.com/pinguinpfleger/ASWX1-FW-MOD#releases)
    
 ## Improvements  
 
