@@ -71,7 +71,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(pinguinpfleger&FoodFighter, ASWX1-FW-MOD)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(pinguinpfleger&FoodFighter&mutcianm, AGENIUS-FW-MOD)" // Who made the changes.
 #define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -484,10 +484,15 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
+  // Genius
+  #define DEFAULT_Kp 9.31
+  #define DEFAULT_Ki 0.57
+  #define DEFAULT_Kd 37.76
+
   // Sidewinder X1 bei 205° C    
-   #define DEFAULT_Kp 10.85 
-   #define DEFAULT_Ki 0.75 
-   #define DEFAULT_Kd 39.12
+   //#define DEFAULT_Kp 10.85 
+   //#define DEFAULT_Ki 0.75 
+   //#define DEFAULT_Kd 39.12
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -534,10 +539,15 @@
   //#define MIN_BED_POWER 0
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
+  // Genius
+  #define DEFAULT_bedKp 92.46
+  #define DEFAULT_bedKi 16.12
+  #define DEFAULT_bedKd 132.55
+
 // Sidewinder X1 bei 60 Grad      
-   #define DEFAULT_bedKp 83.48  
-   #define DEFAULT_bedKi 8.15 
-   #define DEFAULT_bedKd 213.72
+   //#define DEFAULT_bedKp 83.48  
+   //#define DEFAULT_bedKi 8.15 
+   //#define DEFAULT_bedKd 213.72
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
@@ -1098,16 +1108,16 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 300
-#define Y_BED_SIZE 300
+#define X_BED_SIZE 220
+#define Y_BED_SIZE 220
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS 0
+#define X_MIN_POS -2
 #define Y_MIN_POS -5
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 400
+#define Z_MAX_POS 250
 
 /**
  * Software Endstops
